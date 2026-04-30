@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>SlayTheSpireCardDBAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>laboStSAPI</name>
-    <description>laboStSAPI</description>
+    <name>StSAPI</name>
+    <description>StSAPI</description>
     <url/>
     <licenses>
         <license/>
