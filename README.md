@@ -37,7 +37,6 @@ GET http://localhost:8080/name?name=悪魔化
         "rarity":"レア",
         "cost":"3",
         "effect":"ターン開始時、筋力2を得る。",
-        "upgradedCardId":174
     },
     {
         "cardID":174,
@@ -46,7 +45,6 @@ GET http://localhost:8080/name?name=悪魔化
         "rarity":"レア",
         "cost":"3",
         "effect":"ターン開始時、筋力3を得る。",
-        "upgradedCardId":null
     }
     
 ]
