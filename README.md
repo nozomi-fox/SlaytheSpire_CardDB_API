@@ -91,7 +91,10 @@ GET http://localhost:8080/search?charname=リージェント&rarity=コモン&co
 ```
 # DB構造
 <img width="541" height="402" alt="stscard drawio" src="https://github.com/user-attachments/assets/9aed5ce1-cee0-4b35-9d72-c4d138e4af39" />
+
 # TODO
+
 現段階ではフロントエンド（DiscordBot)と同時並行的に開発を行っており、それと組み合わせることで最低限機能する段階であるため、単体でも動作する様今後追加するべき機能を列挙する。
+
 - キーワード検索における、バックエンド側でのバリデーション処理
 - エラーハンドリング処理の追加
