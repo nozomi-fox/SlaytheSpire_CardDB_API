@@ -25,6 +25,9 @@
 ### パラメータ
 ?name=[カード名]
 ### レスポンス例(検索ワード:"悪魔化")
+```HTTP
+GET http://localhost:8080/name?name=悪魔化
+```
 ``` JSON
 [
     {
@@ -60,7 +63,9 @@
 - キーワード1（文字列）
 - キーワード2（文字列）
 ### レスポンス例(検索キーワード:キャラ名/リージェント,レアリティ/コモン,コスト/1,キーワード1/,エナジーゲイン,キーワード2/鍛造)
-http://localhost:8080/search?charname=リージェント&rarity=コモン&cost=1&keyword1=エナジーゲイン&keyword2=鍛造
+```HTTP
+GET http://localhost:8080/search?charname=リージェント&rarity=コモン&cost=1&keyword1=エナジーゲイン&keyword2=鍛造
+```
 ``` JSON
 [
     {
