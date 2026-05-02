@@ -23,10 +23,6 @@ public class CardsService {
     }
     //カード名検索
     public List<CardsEntity>searchCardName(String message){
-//        List<CardsEntity> cardlist = cardRepository.findByCardNameContaining(message);
-//        Integer id = cardlist.get(0).getUpgradedCardId();
-//        cardlist.add( cardRepository.findById(id).orElse(null));
-//        return cardlist;
         return cardRepository.findByCardNameContaining(message);
     }
 
@@ -36,7 +32,6 @@ public class CardsService {
     }
     //逆引き検索
     public List<CardsEntity> searchCardsFOfConditions(String cost, String rarity,String type,String charname, String keyword1, String keyword2){
-//        System.out.println("service"+cost+rarity+charname+type+keyword1+keyword2);
         return cardRepository.searchCardsOfConditions(cost,rarity,charname,type,keyword1,keyword2);
     };
 }
