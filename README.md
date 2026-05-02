@@ -87,7 +87,7 @@ GET http://localhost:8080/search?charname=リージェント&rarity=コモン&co
 
 ]
 ```
-## GET /keywards
+## GET /keywords
 規定された検索用キーワード一覧を取得する
 ### パラメータ
 なし
