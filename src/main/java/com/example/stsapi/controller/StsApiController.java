@@ -5,12 +5,15 @@ import com.example.stsapi.entity.KeywordsEntity;
 import com.example.stsapi.service.CardsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+@RequestMapping("/api/v1/StS2ciAPI")
 
 @RestController
 public class StsApiController {
@@ -41,7 +44,7 @@ public class StsApiController {
     }
 //逆引き検索
     @GetMapping("/search")
-    public List<CardsEntity>serchCardConditions(
+    public List<CardsEntity>searchCardConditions(
             @RequestParam(required = false)String cost,
             @RequestParam(required = false)String rarity,
             @RequestParam(required = false)String type,
